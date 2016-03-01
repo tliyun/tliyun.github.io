@@ -60,15 +60,16 @@ date:   2016-03-01 11:43:12 +0800
 
    按Ctrl+c退出，按照以下部署命令进行：
 
-    `
     1、 git init  //创建新的git库
-    2、 git add .  
+
+    2、 git add .
+  
     3、 git commit -m "initial commit"  //提交所有的修改到本地的git仓库，双引号中写自己的注释
     
     4、 git remote add origin https://github.com/username/
+
     5、 username.github.io.git  //username使用自己的用户名
     git push -u origin master  //上传到github的master分支中，需要输入用户名和密码，若github中已经存在内容则会产生冲突
-    `
 
   进入HelloBlog/_posts目录下，手动创建新的markdown文件，其命名格式为在文件开头复制如下代码：
 
@@ -84,7 +85,9 @@ date:   2016-03-01 11:43:12 +0800
   依次输入：
 
      1、 git add .
+
      2、 git commit -m "new blog"
+
      3、 git push
 
 * 在浏览器中输入username.github.io就可以访问到自己的博客了
