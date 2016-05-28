@@ -69,6 +69,7 @@ date:   2016-03-01
     
    >git remote add origin https://github.com/username/username.github.io.git  
     //username使用自己的用户名
+
    >git push -u origin master  
     //上传到github的master分支中，需要输入用户名和密码，若github中已经存在内容则会产生冲突
 
