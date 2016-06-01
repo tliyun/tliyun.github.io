@@ -36,7 +36,7 @@ date:   2016-03-01
 ### 六、发布博客
 
 * 完成了以上的操作之后，我们可以使用MarkDown写一篇简单的博客并发布，其操作流程如下：
-* 自己选定一个工作目录，在最上面的路径栏中输入cmd，打开之后输入命令jekyll new name（name自己确定），会发现该目录中生成了一个name文件夹，输入命令cd name进入，输入ls可以看到里面包含若干文件。这里先介绍一下jekyll的目录结构：
+* 自己选定一个工作目录，在最上面的路径栏中输入cmd，打开之后输入命令jekyll new name（name自己确定），会发现该目录中生成了一个name文件夹，输入命令cd name进入，该文件夹中包含若干文件。这里先介绍一下jekyll的目录结构：
 
     1、 文件夹_layouts：用于存放模板的文件夹。
 
@@ -56,9 +56,17 @@ date:   2016-03-01
 
 * 再继续在命令提示符窗口中输入jekyll build，回车之后再输入jekyll serve，没有出错的话，现在可以在浏览器中输入[http://localhost:4000](http://localhost:4000)进行本地预览了。
 
+### 七、添加评论功能
+
+在[https://disqus.com/](https://disqus.com/ "disqus")上创建一个账号(建议注册后立即去邮箱进行激活)。登陆之后通过右上角的admin，在跳转页面中点击上面的Settings，再选择左侧的Installation，再选择 universal code 即最基本的js代码进行配置。
+
+复制“Place the following code where you'd like Disqus to load: ”下面文本框中的内容，在_layouts/post.html文件中嵌入（注意换行，不然内容可能都被注释了），这样就实现了添加评论的功能。
+
+### 八、将博客部署到网上
+
 * 接下来通过github将本地库的改动提交到网上。
 
-   按Ctrl+c退出，按照以下部署命令进行：
+   在上面创建的name文件夹中，按照以下部署命令进行：
 
    >git init  //创建新的git库
    
@@ -71,7 +79,7 @@ date:   2016-03-01
     //username使用自己的用户名
 
    >git push -u origin master  
-    //上传到github的master分支中，需要输入用户名和密码，若github中已经存在内容则会产生冲突
+    //上传到github的master分支中
 
   进入HelloBlog/_posts目录下，手动创建新的markdown文件，其命名格式为在文件开头复制如下代码：
 
@@ -81,7 +89,7 @@ date:   2016-03-01
 
    3、 title:  "这里填写文章标题"  
 
-   4、 date:   2016-03-01 11:43:12 +0800  
+   4、 date:   2016-03-01
 
    5、 ---  
     //1和5都是三条短划线，保留
