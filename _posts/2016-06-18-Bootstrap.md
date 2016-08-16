@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bootstrap学习（一）"
-date:   2016-06-13
+date:   2016-06-18
 ---
 
 >Bootstrap是基于HTML、CSS和JAvaScript的前端框架，它灵活简洁，使得web开发更加方便快捷。
