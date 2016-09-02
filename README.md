@@ -1,2 +1,4 @@
-#### 模板修改说明
-jekyll中使用liquid语法，修改之前最好对此有所了解。代码中的site指向根目录，根目录下的index.html为主页，其中配置了相关的样式和页面组成部分，头部具体为_include中的header.html文件，等等。_config.xml为配置文件，可以配置多个参数，引用的时候使用site.property即可，例如代码中的site.title即为配置文件中的title字段的值。
+# tliyun's blogs
+
+Runing on Github + Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+
