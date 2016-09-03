@@ -2,6 +2,8 @@
 layout: post
 title:  "Sublime Text3 中安装 Emmet"
 date:   2016-03-03 
+categories: other
+comments: true
 --- 
 
 >最近在开始学习前端，目前使用的开发工具是Sublime Text3，这个工具中可以使用很多插件，使我们的前端开发更加高效便捷。这篇文章简单将介绍一下Emmet插件的安装，Emmet插件使用一句指令就能迅速生成了一大片 HTML 代码。

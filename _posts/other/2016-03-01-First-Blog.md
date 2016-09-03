@@ -2,6 +2,8 @@
 layout: post
 title:  "使用Jekyll+GitHub Page搭建博客!"
 date:   2016-03-01
+categories: other
+comments: true
 ---
 
 
